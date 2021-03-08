@@ -1,10 +1,11 @@
 # Đề Tiền Giang năm 2012
-## Link đề: Downloads/De%20nam%20HSG%202020_chinh%20thuc.pdf
+## Link đề: [Click để truy cập](https://tailieuxanh.com/vn/dlID2076002_de-thi-chon-hoc-sinh-gioi-cap-tinh-mon-tin-hoc-so-gd-dt-tien-giang.html)
 
-### Bài 1
+## Bài 1
 
-# Code
+### Code
 
+```
 uses crt;
 var s:string;
     f1,f2:text;
@@ -50,10 +51,15 @@ xuat;
 close(f1);
 close(f2);
 end.
+```
+
 Link: https://ideone.com/440fPE
 
-# Bài 2:
-# Code:
+<span style="color:red"><strong style="color:red">Nhận xét:</strong> Suy nghĩ thêm cách làm ngắn gọn hơn nữa &#8594; tìm công thức tổng quát hơn</span>.
+## Bài 2:
+### Code:
+
+```
 uses crt;
 var n,i:int64;
 f1,f2:text;
@@ -79,9 +85,17 @@ write(f2,'YES');
 close(f1);
 close(f2);
 end.
+```
+
 Link: https://ideone.com/6ycaM9
 
-# Bài 3:uses crt;
+<span style="color:red"><strong style="color:red">Nhận xét:</strong></span> 
+- [x] 
+
+## Bài 3:
+
+```
+uses crt;
 type mang=record
         ten:string;
         chieucao:real;
@@ -174,11 +188,16 @@ xuat;
 close(f1);
 close(f2);
 end.
+```
+
 Link: https://ideone.com/Jjinf4
 
-# Bài 4
-# Đề: ![image](https://user-images.githubusercontent.com/79987495/110145727-51ae0b00-7e0c-11eb-90ff-a3f48567de47.png)
-# Code:
+<span style="color:red"><strong style="color:red">Nhận xét:</strong> Bố cục dễ nhìn, tuy nhiên xem lại cách đặt tên biến, tên hàm</span> 
+## Bài 4
+### Đề: ![image](https://user-images.githubusercontent.com/79987495/110145727-51ae0b00-7e0c-11eb-90ff-a3f48567de47.png)
+### Code:
+
+```
 uses crt;
 var n,m,max,max2,kq:longint;
 f1,f2:text;
@@ -223,5 +242,8 @@ writeln(f2,kq);
 close(f1);
 close(f2);
 end.
+```
+
 https://ideone.com/cJwZN1
 
+<span style="color:red"><strong style="color:red">Nhận xét:</strong> Xem xét xem có cần dùng đến mảng 2 chiều để lưu trữ hay không? Trong khi mình chỉ cần tích và chỉ số, ngoài ra không tái sử dụng mảng nữa</span> 
