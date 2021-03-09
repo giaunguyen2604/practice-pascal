@@ -43,5 +43,5 @@
 
 - Theo anh, 1 ô không tới dc nếu nó bị chặn ở 2 đầu (hàng & cột)
 
-Cả 2 số, trên cùng hàng phía trước có số 0 chặn nên ko tới dc, trên cùng cột cũng có số 0 chặn nên cũng ko tới được
+Cả 2 số (2 số 1 ở test 2), trên cùng hàng phía trước có số 0 chặn nên ko tới dc, trên cùng cột cũng có số 0 chặn nên cũng ko tới được
 
