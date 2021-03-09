@@ -21,7 +21,7 @@
 ### Bài 04:
 #### Dạng bài: Mảng 2 chiều
 
-- Đọc đề thì thấy bài hoàn toàn không khó.
+- Đọc đề thì thấy bài hoàn toàn không khó, nhưng dù sao đây cũng là bài cần phải suy nghĩ nhiều hơn để tìm giải thuật hợp lý
 - Test thứ 2:
 
 ```
