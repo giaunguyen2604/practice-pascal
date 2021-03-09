@@ -20,30 +20,43 @@
 
 ### Bài 04:
 #### Dạng bài: Mảng 2 chiều
+
 - Đọc đề thì thấy bài hoàn toàn không khó.
 - Test thứ 2:
+
+```
 1 1 1 1
 1 1 1 1
 1 0 1 0
 1 0 1 1
 1 0 1 1
+```
 
 - Test thứ 1:
+
+```
 1 1 1
 1 0 1
 1 1 0
 1 1 1
+```
 
 - Theo anh, 1 ô không tới dc thì nó bị chặn ở 2 đầu (hàng & cột)
 VD: 
+```
 1 1 1 1
 1 1 1 1
 1 0 1 0
 1 0 1 **1**
 1 0 1 **1**
+```
+
 Cả 2 số, trên cùng hàng phía trước có số 0 chặn nên ko tới dc, trên cùng cột cũng có số 0 chặn nên cũng ko tới được
+
+````
 1 1 1 1
 1 1 1 1
 1 0 1 ***0***
 1 ***0*** 1 **1**
 1 ***0*** 1 **1**
+```
