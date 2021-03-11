@@ -179,4 +179,5 @@ end.
 ! Logic chưa được hay. Thay đổi cách làm: sử dụng mảng check mã ASCII or check kí tự cũng ok.
 ! Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
 ```
-
+___
+> Một vấn đề chung là code không thục ra thục vào. KHÓ nhìn quá nhé!
