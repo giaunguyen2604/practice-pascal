@@ -2,6 +2,8 @@
 # link: 
 KHONG BIET GUI ANH
 ## BAI 1
+
+```
 var f1,f2:text;
 n:int64;
 function kt(n:int64):boolean;
@@ -28,7 +30,11 @@ write(f2,n);
 close(f1);
 close(f2);
 end.
+```
+
 ## BAI 2
+
+```
 var f1,f2:text;
 s:string;
 function kt1(s:string):boolean;
@@ -86,7 +92,11 @@ if (kt1(s)) or(kt2(s)) or(kt3(s)) or(kt4(s)) then begin write(f2,'YES'); close(f
 write(f2,'NO');
 close(f1); close(f2);
 end.
+```
+
 ## BAI 3
+
+```
 var f1,f2:text;
 a,b,c,d,t,i:integer;
 function kt(n:integer):integer;
@@ -112,7 +122,11 @@ write(f2,t);
 close(f1);
 close(f2);
 end.
+```
+
 ## BAI 4
+
+```
 var f1,f2:text;
 s:string;
 n,i,j,k,d,h:integer;
@@ -137,4 +151,5 @@ write(f2,h);
 close(f1);
 close(f2);
 end.
+```
 
