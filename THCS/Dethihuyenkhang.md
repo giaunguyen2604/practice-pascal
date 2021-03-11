@@ -31,6 +31,14 @@ close(f1);
 close(f2);
 end.
 ```
+### **Nhận xét**
+
+```diff
+- Đầu tiên, đọc rule và viết code lại theo quy chuẩn đã quy định.
+- Không nên viết hàm kiểm tra sử dụng xử lý chuỗi mà nên xử lý thẳng trên số (sử dụng div, mod)
+- Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
+
 
 ## BAI 2
 
@@ -93,7 +101,13 @@ write(f2,'NO');
 close(f1); close(f2);
 end.
 ```
+### **Nhận xét**
 
+```diff
+- Cũng như bài 1, viết biến quá lộn xộn và không có ý nghĩa. Gây khó khăn cho anh đọc để kiểm tra. Nhìn vào khó hiểu là anh lướt đấy!
+- Logic chưa được hay.
+- Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
 ## BAI 3
 
 ```
@@ -123,7 +137,13 @@ close(f1);
 close(f2);
 end.
 ```
+### **Nhận xét**
 
+```diff
++ Làm lại luôn nhé
++ Nên comment cho a hiểu logic như nào, viết này sao a hiểu được ý tưởng mà check đúng hay sai.
++ Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
 ## BAI 4
 
 ```
@@ -151,5 +171,12 @@ write(f2,h);
 close(f1);
 close(f2);
 end.
+```
+### **Nhận xét**
+
+```diff
+! Thay đổi biến lại nhé
+! Logic chưa được hay. Thay đổi cách làm: sử dụng mảng check mã ASCII or check kí tự cũng ok.
+! Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
 ```
 
