@@ -36,6 +36,36 @@ end.
 - Không nên viết hàm kiểm tra sử dụng xử lý chuỗi mà nên xử lý thẳng trên số (sử dụng div, mod)
 - Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
 ```
+# Code sửa lại:
+```
+var n:int64;
+f1,f2:text;
+function kt(n:int64):boolean;
+var i:longint;
+m:int64;
+begin
+m:=n;
+while n>0 do
+begin
+if n mod 10<>0 then
+if m mod (n mod 10)<>0 then exit(false);
+n:=n div 10;
+end;
+exit(true);
+end;
+begin
+assign(f1,'NUM.INP'); reset(f1);
+assign(f2,'NUM.OUT'); rewrite(f2);
+readln(f1,n);
+n:=n-1;
+repeat
+inc(n);
+until kt(n);
+write(f2,n);
+close(f1);
+close(f2);
+end.
+```
 
 # Bài 2: PHONE
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886625-73941a00-8345-11eb-96a1-2774ed79dfb2.png)
@@ -107,7 +137,63 @@ end.
 - Logic chưa được hay.
 - Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
 ```
-
+# Code sửa lại:
+```
+var s:string;
+f1,f2:text;
+function kt1(s:string):boolean;
+var d,i:byte;
+begin
+d:=0;
+for i:=1 to length(s)-1 do
+if chr(ord(s[i])+1)=s[i+1] then
+begin
+inc(d);
+if d>=3 then exit(true);
+end else d:=0;
+exit(false);
+end;
+function kt2(s:string):boolean;
+var i:byte;
+begin
+for i:=1 to length(s)-2 do
+if (s[i]=s[i+1])and(s[i+1]=s[i+2]) then exit(true);
+exit(false);
+end;
+function kt3(s:string):boolean;
+var i,d:byte;
+begin
+d:=0;
+for i:=1 to length(s)-1 do
+begin
+if s[i]=s[i+1] then inc(d);
+if d=2 then exit(true);
+end;
+exit(false);
+end;
+function kt4(s:string):boolean;
+var d:array['0'..'9'] of longint;
+i:byte;
+begin
+fillchar(d,sizeof(d),0);
+for i:=1 to length(s) do
+begin
+inc(d[s[i]]);
+if d[s[i]]=5 then exit(true);
+end;
+exit(false);
+end;
+begin
+assign(f1,'PHONE.INP'); reset(f1);
+assign(f2,'PHONE.OUT'); rewrite(f2);
+readln(f1,s);
+if (kt1(s))or(kt2(s))or(kt3(s))or(kt4(s)) then
+begin write(f2,'YES'); close(f2); exit; end;
+write(f2,'NO');
+close(f1);
+close(f2);
+end.
+```
 
 # Bài 3: CLOCK
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886728-9de5d780-8345-11eb-89f7-f9b5431da1d3.png)
