@@ -29,6 +29,14 @@ end.
 ```
 # Link: https://ideone.com/92asNt
 
+### **Nhận xét**
+
+```diff
+- Đầu tiên, đọc rule và viết code lại theo quy chuẩn đã quy định.
+- Không nên viết hàm kiểm tra sử dụng xử lý chuỗi mà nên xử lý thẳng trên số (sử dụng div, mod)
+- Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
+
 # Bài 2: PHONE
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886625-73941a00-8345-11eb-96a1-2774ed79dfb2.png)
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886643-7abb2800-8345-11eb-9389-74328a23c5db.png)
@@ -92,6 +100,15 @@ end.
 ```
 # Link: https://ideone.com/OjVDIv
 
+### **Nhận xét**
+
+```diff
+- Cũng như bài 1, viết biến quá lộn xộn và không có ý nghĩa. Gây khó khăn cho anh đọc để kiểm tra. Nhìn vào khó hiểu là anh lướt đấy!
+- Logic chưa được hay.
+- Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
+
+
 # Bài 3: CLOCK
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886728-9de5d780-8345-11eb-89f7-f9b5431da1d3.png)
 # Code:
@@ -128,6 +145,13 @@ end.
 ```
 # Link: https://ideone.com/yWXIZy
 
+### **Nhận xét**
+
+```diff
+- Sử dụng tên biến rõ ràng hơn cho a hiểu logic như nào nhé, có thể sử dụng comment //
+- Làm lại và nộp ngay bên dưới nhận xét này. KHÔNG XOÁ CODE CŨ NHÉ!
+```
+
 # Bài 4: CIPHER
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886813-b950e280-8345-11eb-9ef2-9b4c6a036585.png)
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886839-c4a40e00-8345-11eb-97a8-922087816710.png)
@@ -160,6 +184,13 @@ end.
 ```
 # Link: https://ideone.com/AWPZt5
 
+### **Nhận xét**
+
+```diff
+- Được. Logic ổn. Chỉ có điều thay đổi tên biến, tên hàm lại.
+- Thay đổi lại và nộp lại bên dưới nhé!
+```
+
 # Bài 5: SUM
 # Đề: ![image](https://user-images.githubusercontent.com/79987495/110886913-e00f1900-8345-11eb-9e31-030d8b1b3fc1.png)
 # Code:
@@ -189,4 +220,10 @@ close(f2);
 end.
 ```
 # Link: https://ideone.com/RkRZzw
+
+```diff
+- Được. Logic ổn. Chỉ có điều thay đổi tên biến lại.
+- Thay đổi lại và nộp lại bên dưới nhé!
+```
+
 
