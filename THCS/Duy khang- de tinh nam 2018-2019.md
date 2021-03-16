@@ -73,6 +73,14 @@ nhap;
 xuli;
 end.
 ```
+
+### **Nhận xét**
+
+```diff
+-  Thay đổi phương pháp xử lý trên số thực sẽ tốt hơn.
+```
+
+
 # Bai 2
 ```
 uses crt;
@@ -101,6 +109,14 @@ begin
         xuli;
 end.
 ```
+
+### **Nhận xét**
+
+```diff
+-  Tạm ổn
+-  Duyệt như này chỉ phù hợp đối với test nhỏ
+```
+
 # Bai 3
 ```
 uses crt;
@@ -109,7 +125,8 @@ k,n,i:integer;
 procedure nhap;
 begin
 readln(k);
-readln(n);   if k-n<>1 then write('NO') else writeln('YES');
+readln(n);   
+if k-n<>1 then write('NO') else writeln('YES');
 for i:=1 to n do
 begin
         read(a[i]);
@@ -125,6 +142,14 @@ begin
         if k-1=n then xuli;
 end.
 ```
+
+### **Nhận xét**
+
+```diff
+- Lưu ý: chỉ in ra 1 số --> cần thiết dùng lệnh break để end for loop
+- Code còn trên 1 
+```
+
 # Bai 4
 ```
 var  x,s,maxln,maxnt,h:string;
@@ -164,7 +189,9 @@ begin
         xuli;
 end.
 ```
+
 # Bai 5
+
 ```
 var i,j,b:longword;
 procedure nhap;
@@ -191,3 +218,12 @@ begin
         xuli;
 end.
 ```
+
+
+### **Nhận xét**
+
+```diff
+- Điều quan trọng ở bài này là dùng kiến thức toán học hoặc phép thử trên vài bộ số (a, b, c) để giới hạn được phạm vi của a, c 
+```
+
+- [x]
