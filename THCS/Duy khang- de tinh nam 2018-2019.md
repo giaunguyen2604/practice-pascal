@@ -225,5 +225,3 @@ end.
 ```diff
 - Điều quan trọng ở bài này là dùng kiến thức toán học hoặc phép thử trên vài bộ số (a, b, c) để giới hạn được phạm vi của a, c 
 ```
-
-- [x]
