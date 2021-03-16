@@ -22,4 +22,4 @@ begin
 end.
 ```
 
-[x] Đã xem
+- [x] Đã xem
