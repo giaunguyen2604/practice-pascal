@@ -101,7 +101,7 @@ Mỗi khi bị kẹt xe trên đường vì tắt đường. An thường nghĩ 
 
 </div>
 
-#### BÀI 4: SỐ RÕ RÀNG (3 ĐIỂM)   Tên chương trình: ***CLEARNUM.PAS***
+#### BÀI 4: SỐ RÕ RÀNG (4 ĐIỂM)   Tên chương trình: ***CLEARNUM.PAS***
 
 <div style="text-align: justify">
 Bờm mới tìm được một tài liệu định nghĩa số rõ ràng như sau: Với số nguyên dương n, ta tạo số mới bằng cách lấy tổng bình phương các chữ số của nó, với số mới này ta lại lặp lại công việc trên. Nếu trong quá trình đó, ta nhận được số mới là 1, thì số n ban đầu được gọi là số rõ ràng. Ví dụ, với n = 19, ta có:
